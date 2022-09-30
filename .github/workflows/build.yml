@@ -37,7 +37,3 @@ jobs:
       # Run tests
       - name: Run maven tests
         run: mvn clean test
-
-      #  Run tests
-      - name: Run testSubtract
-        run: assertEquals(2, c.subtract(4,2))
