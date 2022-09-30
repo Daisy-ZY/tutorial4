@@ -34,6 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          #  Run tests
-            - name: Run testSubtract
-              run: assertEquals(2, c.subtract(4,2))
+      #  Run tests
+      - name: Run testSubtract
+        run: assertEquals(2, c.subtract(4,2))
